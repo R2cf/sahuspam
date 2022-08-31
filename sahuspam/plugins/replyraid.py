@@ -63,7 +63,7 @@ async def replyraid(e):
                     elif get_id == OWNER_ID:
                         await e.client.send_message(e.chat_id, f"`हेलो` {mention} `बेटे! मैं अपने owner को गली नही दूंगा तेरी मां चोदूंगा!`")
                     elif get_id in CO_OWNER_ID:
-                        await e.client.send_message(e.chat_id, f"`हेलो` {mention} `बेटे! मैं अपने owner को गली नही दूंगा तेरी मां चोदूंगा!`"
+                        await e.client.send_message(e.chat_id, f"`हेलो` {mention} `बेटे! मैं अपने owner को गली नही दूंगा तेरी मां चोदूंगा!`")
                     elif get_id  in SUDO_USERS:
                         await e.client.send_message(e.chat_id, f"`हेलो` {mention} `बेटे! मैं अपने owner को गली नही दूंगा तेरी मां चोदूंगा!`")
                     elif get_id == me.id:
