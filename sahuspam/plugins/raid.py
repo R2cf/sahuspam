@@ -4,7 +4,7 @@
 import random
 from sahuspam import *
 from sahuspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5 
-from hellspam.helpers.gspam import GSPAM
+from sahuspam.helpers.gspam import GSPAM
 from telethon import events
 
 
