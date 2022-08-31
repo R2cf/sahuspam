@@ -67,7 +67,7 @@ async def replyraid(e):
                     elif get_id  in SUDO_USERS:
                         await e.client.send_message(e.chat_id, f"`हेलो` {mention} `बेटे! मैं अपने owner को गली नही दूंगा तेरी मां चोदूंगा!`")
                     elif get_id == me.id:
-                        await e.client.send_message(e.chat_id, "`हेलो` {mention} `बेटे! मैं अपने owner को गली नही दूंगा तेरी मां चोदूंगा!`")
+                        await e.client.send_message(e.chat_id, f"`हेलो` {mention} `बेटे! मैं अपने owner को गली नही दूंगा तेरी मां चोदूंगा!`")
                     else:
                         message = await e.client.send_message(e.chat_id, f"`तुम्हारी मां चुदाना चालू हो रहा है.....!`")
                         if get_id in enemy:
