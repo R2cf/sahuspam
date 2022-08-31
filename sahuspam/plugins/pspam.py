@@ -4,7 +4,7 @@
 import random
 from sahuspam import *
 from sahuspam import SpamBot1, SpamBot2, SpamBot3, SpamBot4, SpamBot5
-from hellspam.helpers.plinks import PLINKS
+from sahuspam.helpers.plinks import PLINKS
 from telethon import events
 
 a = False
