@@ -26,10 +26,10 @@ if __name__ == "__main__":
             plugname = module.stem
             load_plugs(plugname.replace(".py", ""))
 
-import hellspam
-import hellspam.userNeeds
-import hellspam.help
-import hellspam.helpers.callbackQuery
+import sahuspam
+import sahuspam.userNeeds
+import sahuspam.help
+import sahuspam.helpers.callbackQuery
 
 print("\n\nSahu Spam Bot Deployed Successfully! ❤️⚡🔥 \n\n")
 print("\n\n For future updates, Join @vijaysahu_1 🔥\n\n")
